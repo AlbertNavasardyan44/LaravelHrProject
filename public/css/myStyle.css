@@ -1,0 +1,288 @@
+.dashboard-table thead th, .dashboard-table tbody td{
+    font-size:14px !important;
+}
+.container {
+    min-width: 992px !important;
+    max-width: calc(100% - 240px);
+}
+.btn{
+    max-width: 100px!important;
+    color:white;
+}
+.btn-success{
+    color: white !important;
+}
+.deleteEmp{
+    color: white !important;
+}
+.file-remove{
+    color: red!important;
+   font-size: 20px;
+}
+thead{
+    background: #f2f2f3;
+}
+th{
+    vertical-align: middle !important;
+}
+td{
+    vertical-align: middle!important;
+}
+.topbar .top-navbar .navbar-header .navbar-brand {
+    width: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 10px 10px 10px !important;
+}
+.scroll-sidebar {
+    height: calc(100% - 20px);
+    position: relative;
+    margin-top: 47px;
+    padding-left: 30px;
+}
+.admin-nav{
+    height: 82px;
+    background: black!important;
+
+}
+.navbar-header{
+    background-color: #425870!important;/*#6A9D63*/
+}
+.sidebar-nav ul .sidebar-item .sidebar-link.active {
+    font-weight: 500;
+    border-left: 3px solid #7ace4c;
+}
+.sidebar-nav ul .sidebar-item {
+    width: 210px!important;
+
+}
+
+.navbar-login {
+   background: black!important;
+
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:#7ace4c!important;
+}
+.topbar .navbar-collapse .navbar-nav .profile-pic {
+    color: #fff;
+    padding: 0 40px 0 14px !important;
+    line-height: 60px;
+    min-height: 60px;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #fff !important;
+    /* color: #3e5569; */
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #7ace4c !important;
+    border: 0;
+}
+
+.dropdown-item:active {
+    color: white!important;
+    text-decoration: none;
+    background-color: #7ace4c !important;
+}
+.dropdown-item:hover{
+    background-color: #66bf34!important;
+    border-color: #60b532!important;
+}
+.dropdown-menu {
+    left: initial;
+    padding: 0px !important;
+}
+.dropdown-menu[style] {
+    right: 44px!important;
+}
+.topbar .navbar-collapse .navbar-nav .profile-pic {
+    margin-right: 44px !important;
+}
+.sidebar-link{
+    color: #ffffff !important;
+    font-size: 16px!important;
+}
+.sidebar-link>i{
+    color: #ffffff !important;
+    font-size: 18px!important;
+}
+#main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6], #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] {
+    background: #425870!important;
+}
+#main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul, #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul {
+    background: #425870!important;
+}
+.scroll-sidebar {
+    height: initial!important;
+}
+.addEdu{
+    margin-left: 328px;
+}
+.addEmp{
+    margin-left: 323px;
+}
+.empEditBtn{
+    margin-left: 323px;
+}
+.editEduBtn{
+    margin-left:265px;
+}
+.addNewEdu{
+    margin-right: 260px;
+}
+.education_name_edit{
+    border: 1px solid #bbbbbb !important;
+
+}
+.faculty_name_edit{
+    border: 1px solid #bbbbbb !important;
+}
+option:checked{
+    /*color: red;*/
+    background:none !important;
+}
+.checkedopt{
+    color: red!important;
+}
+.checkedopt:hover{
+    background-color:red !important; ;
+}
+/*.modal-dialog {*/
+/*    display: flex;*/
+/*    vertical-align: center;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+.modal-confirm {
+    color: #636363;
+    width: 400px;
+}
+.modal-editUni{
+    max-width:770px!important;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.modal-confirm .modal-body {
+    color: #000000;
+}
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px 25px;
+}
+.modal-confirm .modal-footer a {
+    color: #999;
+}
+.modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #ff0000;
+}
+.modal-confirm .icon-box i {
+    color: #ff0000;
+    font-size: 46px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.modal-confirm .btn, .modal-confirm .btn:active {
+    color: #fff;
+    border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    min-width: 120px;
+    border: none;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.modal-confirm .btn-secondary {
+    background: #c1c1c1;
+}
+.modal-confirm .btn-secondary:hover, .modal-confirm .btn-secondary:focus {
+    background: #a8a8a8;
+}
+.modal-confirm .btn-danger {
+    background: #f15e5e;
+}
+.modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
+    background: #ee3535;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+.editUniversityBtn{
+    margin-left:267px;
+}
+.loginBtn{
+     background: #7ace4c!important;
+ }
+ .login-card{
+     color: black!important;
+     background: #f2f2f3;
+ }
+ .card-header-log{
+
+ }
+ .LinksCard{
+
+     border:1px solid #2cabe3!important;
+ }
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #8b959a;
+    border-color: #2cabe3;
+}
+.searchInput{
+    /*top: -70px;*/
+
+    /*width: 236px !important;*/
+}
+.search{
+    border: 3px solid skyblue;
+}
+.remove{
+    border: 2px solid skyblue;
+    width: 236px;
+}
